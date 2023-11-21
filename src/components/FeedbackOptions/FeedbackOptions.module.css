@@ -1,0 +1,41 @@
+.btn {
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Стилі для кнопки "good" */
+.btnGood {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.btnGood:hover,
+.btnGood:focus {
+  background-color: #45a049;
+}
+
+/* Стилі для кнопки "neutral" */
+.btnNeutral {
+  background-color: #ff9800;
+  color: #fff;
+}
+
+.btnNeutral:hover,
+.btnNeutral:focus {
+  background-color: #35322e;
+}
+
+/* Стилі для кнопки "bad" */
+.btnBad {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #20de9e;
+  transform: scale(1.1);
+}
